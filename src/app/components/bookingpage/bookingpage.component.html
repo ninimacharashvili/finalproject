@@ -1,0 +1,30 @@
+
+<div class="bookingpagediv">
+<div class="cards">
+    <img class="roomimg" [src]="cardservice.bookinginfo.images[0].source" alt="Room Image">
+  </div>
+
+  <div class="leftdiv">
+  <div class="roominfo">
+    <h2 class="roominfotxt">Reservation</h2>
+    <p class="roominfotxt">{{ cardservice.bookinginfo.name }}</p> 
+  </div>
+  <div class="roominputs">
+    <label for="">check in date</label>
+    <input class="inp" type="date" name="" id="">
+    <label  for=""> check out date</label>
+    <input class="inp" type="date" name="" id="">
+    <label for="">costumer name</label>
+    <input class="inp" type="text" name="" id="">
+    <label for="">costumer tel:phone</label>
+    <input class="inp" type="tel" name="" id="">
+    <button class="booknowbt" (click)="addtobookedrooms()">book now</button>
+
+</div>
+</div> 
+  
+
+
+
+
+

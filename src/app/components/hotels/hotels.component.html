@@ -1,0 +1,10 @@
+
+<div class="cardsparent">
+    <div class="cards" *ngFor="let user of hotellist; let i=index">
+        <div><img class="cardimg" [src]="user.featuredImage" alt=""></div>
+        <div class="cardname">{{user.name}}</div>
+        <div class="cardcity">{{user.city}}</div>
+        <button class="hotelsbt"><a routerLink="/rooms" routerLinkActive="active" >see rooms</a></button>
+    </div>
+</div>
+<app-footer></app-footer>

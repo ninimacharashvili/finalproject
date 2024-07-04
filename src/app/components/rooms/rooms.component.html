@@ -1,0 +1,14 @@
+
+
+<div class="cardsparent"  >
+     <div class="cards" *ngFor="let room of roomslist" routerLink="/bookingpage" (click)="cardservice.booking(room)" >
+      <div class="img">
+        <img [src]="room.images[0]?.source" alt="Room Image">
+      </div>
+      <div class="cardname">{{ room.name }}</div>
+      <div class="cardprice">{{ room.pricePerNight }} $ per night</div>
+    </div>
+
+  </div>
+  <app-footer></app-footer>
+  

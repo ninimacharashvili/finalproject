@@ -1,0 +1,13 @@
+.footerdiv{
+    background-color: rgb(12, 11, 19);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    color: antiquewhite;
+}

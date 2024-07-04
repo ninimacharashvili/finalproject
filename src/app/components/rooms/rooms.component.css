@@ -1,0 +1,108 @@
+@media(min-width:700px){
+  .cardsparent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cards {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;  
+    box-shadow: 0 0 10px #A79B9C; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #e7e1e0;
+  }
+  
+  .cards:hover {
+    transform: translateY(+5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .cardname {
+    font-size: 18px;
+    font-weight: bold;
+    color: #65626A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cardprice {
+    font-size: 14px;
+    font-weight: 900;
+    color: #A79B9C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+@media(max-width:700px){
+  .cardsparent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cards {
+    width: 250px;
+    height: 220px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;  
+    box-shadow: 0 0 10px #A79B9C; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #e7e1e0;
+  }
+  
+  .cards:hover {
+    transform: translateY(+5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .cardname {
+    font-size: 15px;
+    font-weight: bold;
+    color: #65626A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cardprice {
+    font-size: 12px;
+    font-weight: 900;
+    color: #A79B9C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+  

@@ -1,0 +1,118 @@
+
+@media(min-width: 700px){
+    .bookingpagediv{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 150px;
+    }
+    
+    .cards{
+        height: 700px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .roomimg{
+        height: 600px;
+        width: 800px;
+    } 
+    .roominfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .roominfotxt{
+        font-size: 50px;
+    }
+    .roominputs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .leftdiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .booknowbt{
+        height: 100px;
+        width: 100px;
+        border: 1 px solid black;
+    }
+    
+    .inp{
+        height: 40px;
+        width: 300px;
+        border: 1px solid grey;
+    }
+    .booknowbt{
+        margin-top: 10px;
+        background-color: #283047;
+        height: 40px;
+        width: 300px;
+        border: 1px solid #65626A;
+        color: beige;
+    }
+}
+@media(max-width: 700px){
+    .bookingpagediv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .cards{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .roomimg{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    } 
+    .roominfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .roominfotxt{
+        font-size: 40px;
+    }
+    .roominputs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .leftdiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .booknowbt{
+        height: 40px;
+        width: 100px;
+        border: 1 px solid black;
+    }
+    
+    .inp{
+        height: 40px;
+        width: 300px;
+        border: 1px solid grey;
+    }
+    .booknowbt{
+        margin-top: 10px;
+        background-color: #283047;
+        height: 40px;
+        width: 300px;
+        border: 1px solid #65626A;
+        color: beige;
+    }
+
+}
+  
